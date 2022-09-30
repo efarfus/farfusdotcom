@@ -1,0 +1,131 @@
+body{
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    background: url("bg.jpg");
+}
+
+.SAPO{
+    width: 12%;
+}
+
+.caixa{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 1s color;
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+nav a:active{
+    color: darkorange;
+}
+
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.loja{
+    width: 1200px;
+    margin: 0 auto;
+    padding:100px 0;
+}
+
+.loja li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 18px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.loja li:hover{
+    border-color: #0000ff;
+}
+
+.loja li:hover h2{
+    font-size: 40px;
+}
+
+.loja li:active{
+    border-color: #ffff00;
+}
+
+.loja h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.preco{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#clock{
+    width: 300px;
+}
+
+#garfo{
+    width: 300px;
+}
+
+#kit{
+    width: 270px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: url("bg.jpg");
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.sapo2{
+    width: 20%;
+}
